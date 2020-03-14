@@ -1,9 +1,9 @@
 import time
 
-file1 = open(r"A_tale_of_two_cities.txt", "r", encoding="utf8")
-file2 = open(r"Longest_Pattern", "r", encoding="utf8")
+file1 = open(r"../A_tale_of_two_cities.txt", "r", encoding="utf8")
+file2 = open(r"../Longest_Pattern", "r", encoding="utf8")
 #pattern="bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1,4-benzoquinol methylase"
-Pattern = file2.read()
+pattern = file2.read()
 text = file1.read()
 
 
