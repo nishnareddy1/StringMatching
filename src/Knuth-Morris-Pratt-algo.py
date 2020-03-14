@@ -1,6 +1,6 @@
 import time
 
-file1 = open(r"A_tale_of_two_cities.txt", "r", encoding="utf8")
+file1 = open(r"../A_tale_of_two_cities.txt", "r", encoding="utf8")
 file2 = open(r"../Longest_Pattern", "r", encoding="utf8")
 #Pattern="ribonucleoside-diphosphate reductase 1"
 pattern = file2.read()
