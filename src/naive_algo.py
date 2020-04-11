@@ -5,7 +5,7 @@ file2 = open(r"../Longest_Pattern", "r", encoding="utf8")
 #pattern="bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1,4-benzoquinol methylase"
 pattern = file2.read()
 text = file1.read()
-
+#test
 
 def bruteSearch(pattern, text):
     # edge case check
